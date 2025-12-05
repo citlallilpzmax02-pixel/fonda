@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @FeignClient(
-	    name = "f93ee95b8a53:8080",
+	    name = "f93ee95b8a53",
 	    contextId = "clienteFeign",
 	    configuration = itch.tecnm.proyecto.config.FeignClientConfig.class
 	)

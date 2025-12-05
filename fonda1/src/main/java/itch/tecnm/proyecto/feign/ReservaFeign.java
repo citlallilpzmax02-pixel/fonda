@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @FeignClient(
-	    name = "428b7cb710e9:8080",
+	    name = "428b7cb710e9",
 	    contextId = "reservaFeign",
 	    configuration = itch.tecnm.proyecto.config.FeignClientConfig.class
 	)
