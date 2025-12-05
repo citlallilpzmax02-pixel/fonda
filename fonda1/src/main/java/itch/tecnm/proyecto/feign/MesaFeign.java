@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @FeignClient(
-	    name = "reservaciones",
+	    name = "428b7cb710e9:8080",
 	    contextId = "mesaFeign",
 	    configuration = itch.tecnm.proyecto.config.FeignClientConfig.class
 	)
