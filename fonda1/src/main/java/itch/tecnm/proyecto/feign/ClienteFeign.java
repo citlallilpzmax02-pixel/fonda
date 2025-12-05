@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public interface ClienteFeign {
 
-    @GetMapping("/api/cliente/{id}")
+    @GetMapping("https://restaurante-production-1b90.up.railway.app/api/cliente/{id}")
     ClienteDto getClienteById(@PathVariable("id") Integer idCliente);
 
     // =============================
